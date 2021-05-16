@@ -1,0 +1,5 @@
+For this part I took in a list of the most common passwords used (rockyou.txt) and in another text file a hash as a text file (hash.txt). 
+I then traversed the list of common passwords and hashed them and compared them to the origional hash given. 
+If it was a match then I printed it out and exited the program.
+The password for admin is adminpassword
+The speed of my program is 319482 guesses per second

@@ -1,0 +1,13 @@
+For this part I took in a list of the most common passwords (rockyou.txt) and a username.
+I then connected to the website and traversed the list and tried to log in with the given username and each password.
+If the password was successful then I printed out the password that worked with the given username and that the login was successful.
+If the program traversed the list and did not find any successful passwords, then the program exits and tells you that it did not find a password.
+In order to check that the login was successful I searched the html page and made sure that there was a logout button.
+
+One way to protect against this type of attack is to lock accounts after a certain number of inncorrect password attempts have been made.
+The accounts can remian locked until an admin unlocks it or for a specified amount of time.
+Another method to protect against this type of attack is to lock accounts from unknown browsers/devices/IP addresses or known to be malicious devices.
+You can also use a CAPTCHA to prevent automated attempts. 
+Source: https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks
+
+Guesses per second: 136
